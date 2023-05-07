@@ -25,7 +25,7 @@ header:
       external: false
       submenus:
         - text: KICS
-          link: "/"
+          link: https://gof77.github.io/kics
         - text: IFRS17
           link: https://gof77.github.io/ifrs
         - text: GESG
