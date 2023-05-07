@@ -6,11 +6,11 @@ metadata:
   language: en
   pathPrefix: "/ifrs"
   siteImage:
-  favicon: "/assets/GofFavicon32.png"
+  favicon: "./assets/GofFavicon32.png"
   themeColor: "#37474F"
 header:
   enabled: true
-  logo: "/assets/GoFwobg96.png"
+  logo: "./assets/GoFwobg96.png"
   logolink: "/"
   helpUrl: ""
   links:
@@ -81,6 +81,10 @@ sidebar:
 pwa:
   enabled: true
   manifest:
+    name: Gbook
+    short_name: Gbook_IFRS
+    background_color: "#37474F"
+    theme_color: "#37474F"
     display: standalone
     crossOrigin: anonymous
     icon: "/assets/GoF144.png"
