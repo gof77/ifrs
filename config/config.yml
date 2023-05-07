@@ -4,7 +4,7 @@ metadata:
   short_name: Gbook
   description: Gbook - awesome GitBook-like documentation for Risk and Acturary
   language: en
-  pathPrefix: "/"
+  pathPrefix: "/ifrs"
   siteImage:
   favicon: "/assets/GofFavicon32.png"
   themeColor: "#ff0000"
@@ -24,9 +24,17 @@ header:
       link: "/"
       external: false
       submenus:
-        - text: Kics
+        - text: KICS
           link: "/"
         - text: IFRS17
+          link: https://gof77.github.io/ifrs
+        - text: GESG
+          link: https://gof77.github.io/gesg
+    - text: Solutions
+      link: "/"
+      external: false
+      submenus:
+        - text: GMV
           link: https://gof77.github.io/ifrs
         - text: GESG
           link: https://gof77.github.io/gesg
@@ -40,23 +48,26 @@ sidebar:
   #  - "/configuration/setting-up"
   groups:
     - order: 1
-      path: "/01-intro"
-      title: ":rocket: I.총칙"
+      path: "/2."
+      title: ":rocket: 2.계약관리"
     - order: 2
-      path: "/02-valuation"
-      title: ":wrench: II.공정가치 평가"
+      path: "/3."
+      title: ":wrench: 3.최초인식 및 측정"
     - order: 3
-      path: "/03-ac"
-      title: ":writing_hand: III.지급여력금액"
+      path: "/4."
+      title: ":writing_hand: 4.후속측정"
     - order: 4
-      path: "/04-scr"
-      title: ":rocket: IV.지급여력기준금액"
+      path: "/5."
+      title: ":rocket: 5.보험료 배분 접근법"
     - order: 5
-      path: "/05-doc"
-      title: ":computer: V.문서화"
-    - order: 5
-      path: "/06-trans"
-      title: ":computer: VI.경과규정"
+      path: "/6."
+      title: ":computer: 6.변동수수료 접근법"
+    - order: 6
+      path: "/7."
+      title: ":computer: 7.출재보험계약"
+    - order: 7
+      path: "/8."
+      title: ":computer: 8.표시 및 공"
   links:
     - text: GoF
       link: https://github.com/filipowm/boogi
