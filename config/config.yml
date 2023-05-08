@@ -48,25 +48,25 @@ sidebar:
   #  - "/configuration/setting-up"
   groups:
     - order: 1
-      path: "/2."
+      path: "/02"
       title: ":rocket: 2.계약관리"
     - order: 2
-      path: "/3."
+      path: "/03"
       title: ":wrench: 3.최초인식 및 측정"
     - order: 3
-      path: "/4."
+      path: "/04"
       title: ":writing_hand: 4.후속측정"
     - order: 4
-      path: "/5."
+      path: "/05"
       title: ":rocket: 5.보험료 배분 접근법"
     - order: 5
-      path: "/6."
+      path: "/06"
       title: ":computer: 6.변동수수료 접근법"
     - order: 6
-      path: "/7."
+      path: "/07"
       title: ":computer: 7.출재보험계약"
     - order: 7
-      path: "/8."
+      path: "/08"
       title: ":computer: 8.표시 및 공"
   links:
     - text: GoF
